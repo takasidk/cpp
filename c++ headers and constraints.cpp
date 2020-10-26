@@ -38,9 +38,6 @@ const double PI = 3.14159265358979323846;
 #define s second
 #define mod 1000000007
 #define fast ios_base::sync_with_stdio(false);cin.tie(NULL);
-typedef pair<int, int> pii;
-typedef pair<ll, ll> pll;
-typedef vector<int> vi;
 typedef vector<pii> vpi;
 typedef vector<ll> vl;
 typedef vector<bool> vb;
