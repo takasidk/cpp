@@ -1,5 +1,5 @@
 1. unique_ptr:
-    unique_ptr<T> foo()
+    unique_ptr<T> foo() 
     --> cant be copied
     --> can move ownership by using move()
     unique_ptr<A> p1(new A)
