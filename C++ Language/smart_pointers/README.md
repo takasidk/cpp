@@ -1,4 +1,4 @@
-unique_ptr:
+**unique_ptr:
     unique_ptr<T> foo() 
     --> cant be copied
     --> can move ownership by using move()
@@ -40,4 +40,4 @@ custom Deleter
         For unique_ptr:
             specified in constructor
             deleter type will be part of unique_ptr type
-     refer custom_deleter.cpp for more understanding
+     refer custom_deleter.cpp for more understanding**
