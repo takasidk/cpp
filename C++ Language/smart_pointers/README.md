@@ -1,4 +1,4 @@
-1. unique_ptr:
+### 1. unique_ptr:
     unique_ptr<T> foo() 
     --> cant be copied
     --> can move ownership by using move()
@@ -6,7 +6,7 @@
     unique_ptr<A> p2(p1)----wrong error occured
     unique_ptr<A> p2=move(p1)
     then p2=p1 and p1 will be null
-2.shared_ptr:
+### 2.shared_ptr:
     shared_ptr<T> foo()
     --> can be copied many number of times 
     --> ownership is shared
@@ -18,7 +18,7 @@
     rcount=3
     deleted by p1.reset()
     then,rcount=2,p1=null
-3.weak_ptr:
+### 3.weak_ptr:
     weak_ptr<T> foo()
     --> can hold a non-owning resource address that is owned by shared ptr
     -->provides access to object but reference count will not increase
@@ -26,7 +26,7 @@
     expired()--->use_count()==0
             or
     lock()--->expired()?share_ptr<T> (): shared_ptr<T>(*this)
-4.custom Deleter
+### 4.custom Deleter:
     -->if we need to call some more functions before deleting the 
         pointer
     we need cutom deletion
