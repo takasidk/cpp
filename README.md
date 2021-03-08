@@ -12,7 +12,7 @@ Implemented in c++\
 
 ### 3.Data Structures
 Implemented in c++\
-[linked list](https://github.com/takasidk/cpp/tree/master/data_structures_implementations/Linked_list)
+[linked list](https://github.com/takasidk/cpp/tree/master/data_structures_implementations/Linked_list)\
 [Stack](https://github.com/takasidk/cpp/tree/master/data_structures_implementations/Stack)
 
 ### 4.Some Coding platform solutions
