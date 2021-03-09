@@ -27,20 +27,20 @@ writing expressions are of different ways
   `<operand>operator><operand>`
 - Human readable But,we get ambiguity in solving,
 expersions are evaluated by BODMAS-operator precedence rules.
-- parentheses-->exponents(right to left)--> multliplication and 
-division(left to right)--> addition and subtraction(left to right)
-2.prefix--> `<operator><operand><operand>`
-3.postfix--> `<operand><operand><operator>`
+- order:parentheses&#8594;exponents(right to left)&#8594; multliplication and 
+division(left to right)&#8594; addition and subtraction(left to right)\
+2.prefix &#8594; `<operator><operand><operand>`\
+3.postfix &#8594; `<operand><operand><operator>`\
 most prefered method beacause its fast and takes less space
 and less ambiguity
 - example: conversion 
 > infix=a+(b*c)\
-> infix to prefix=  a+(b*c) --> a+(*bc) --> +a(*bc) --> +a*bc\
-> infix to postfix= a+(b*c) --> a+(bc*) --> a(bc*)+ --> abc*+
+> infix to prefix=  a+(b*c) &#8594; a+(*bc) &#8594; +a(*bc) &#8594; +a*bc\
+> infix to postfix= a+(b*c) &#8594; a+(bc*) &#8594; a(bc*)+ &#8594; abc*+
 > 
 - another example
-> a*b+c*d-e --> {(a*b)+(c*d)}-e --> {(ab*)+(c*d)}-e --> {(ab*)+(cd*)}-e
-> --> {(ab*)(cd*)+}-e --> {(ab*)(cd*)+}e- --> ab*cd*+e-
+> a*b+c*d-e &#8594; {(a*b)+(c*d)}-e &#8594; {(ab*)+(c*d)}-e &#8594; {(ab*)+(cd*)}-e
+> &#8594; {(ab*)(cd*)+}-e &#8594; {(ab*)(cd*)+}e- &#8594; ab*cd*+e-
 > 
 #### Evaluation of prefix and Postfix
 - postfix:
@@ -49,7 +49,7 @@ and evaluate them accordingly and repeat the steps untill no
 operators are there in the expression
 - Ex:
 > (2,3,*,5,4,*,+,9,-)
-> --> 6,5,4,*,+,9,- --> 6,20,+,9,- --> 26,9,- --> 17
+> &#8594; 6,5,4,*,+,9,- &#8594; 6,20,+,9,- &#8594; 26,9,- &#8594; 17
 > 
 - So,the idea to implement program will be keeping a list of operands  and while 
 iterating the expression and when we get operator then take 
@@ -57,9 +57,9 @@ the top two operands from the list and evaluate them with the
 operator and push back into  the list.So, this type of list LiFO will be a stack
 - prefix:
 conversion example
-> (2,*,3,+,5,*,4,-,9) --> {(2*3)+(5*4)}-9 --> {(*2,3)+(5*4)}-9 
-> --> {(*2,3)+(*4,5)}-9 --> {+(*2,3)(*4,5)}-9 --> -{+(*2,3)(*4,5)}9
-> --> -,+,*,2,3,*4,5,9
+> (2,*,3,+,5,*,4,-,9) &#8594; {(2*3)+(5*4)}-9 &#8594; {(*2,3)+(5*4)}-9 
+> &#8594; {(*2,3)+(*4,5)}-9 &#8594; {+(*2,3)(*4,5)}-9 &#8594; -{+(*2,3)(*4,5)}9
+> &#8594; -,+,*,2,3,*4,5,9
 - evaluation:
 so here similarly as postfix we will find first occuring 
 `<operator><operand><operand>` sequence from right to left iteration\
