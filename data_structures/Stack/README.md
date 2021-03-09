@@ -21,6 +21,12 @@ So, its straight forward to us we should do at the beginning\
 [code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/stack_linkedlist.cpp)
 
 ---
+#### reverse string using:
+[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/reverse_string.cpp)
+#### reverse linked list:
+[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/reverse_LL.cpp)
+#### balanced parentheses:
+[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/balanced_parentheses.cpp)
 #### infix,prefix and postfix:
 writing expressions are of different ways
 1.infix:
@@ -42,7 +48,7 @@ and less ambiguity
 > a*b+c*d-e &#8594; {(a*b)+(c*d)}-e &#8594; {(ab*)+(c*d)}-e &#8594; {(ab*)+(cd*)}-e
 > &#8594; {(ab*)(cd*)+}-e &#8594; {(ab*)(cd*)+}e- &#8594; ab*cd*+e-
 > 
-#### Evaluation of prefix and Postfix
+#### Evaluation of prefix and Postfix:
 - postfix:
 find the first `<operand><operand><operator>` sequence from left
 and evaluate them accordingly and repeat the steps untill no
@@ -55,6 +61,8 @@ operators are there in the expression
 iterating the expression and when we get operator then take 
 the top two operands from the list and evaluate them with the
 operator and push back into  the list.So, this type of list LiFO will be a stack
+[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/evaluate.cpp)
+#### infix to prefix:
 - prefix:
 conversion example
 > (2,*,3,+,5,*,4,-,9) &#8594; {(2*3)+(5*4)}-9 &#8594; {(*2,3)+(5*4)}-9 
@@ -63,6 +71,7 @@ conversion example
 - evaluation:
 so here similarly as postfix we will find first occuring 
 `<operator><operand><operand>` sequence from right to left iteration\
+#### infix to postfix:
 - what ever the conversions we do , the order of operands will not be changed
 * so the pseudo code for our algoritm to convert infix to postfix would be:
 
@@ -80,3 +89,5 @@ so here similarly as postfix we will find first occuring
           while stack is not empty:
               then append the top elem and pop 
       finally output the postfix exp
+[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/infixToPostfix.cpp)
+
