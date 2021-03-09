@@ -21,20 +21,21 @@ So, its straight forward to us we should do at the beginning\
 [code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/stack_linkedlist.cpp)
 
 ---
+#### infix,prefix and postfix:
 writing expressions are of different ways
-infix---> <operand>operator><operand>
+1.infix---> <operand>operator><operand>
 Human readable But,we get ambiguity in solving
 expersions are evaluated by BODMAS-operator precedence rules.
 parentheses-->exponents(right to left)--> multliplication and 
 division(left to right)--> addition and subtraction(left to right)
-prefix--> <operator><operand><operand>
-postfix--> <operand><operand><operator>
+2.prefix--> <operator><operand><operand>
+3.postfix--> <operand><operand><operator>
 most prefered method beacause its fst and takes less space
 and less ambiguity
 example: conversion 
 infix=a+(b*c)
-infix to prefix   a+(b*c) --> a+(*bc) --> +a(*bc) --> +a*bc
-infix to postfix a+(b*c) --> a+(bc*) --> a(bc*)+ --> abc*+
+'infix to prefix   a+(b*c) --> a+(*bc) --> +a(*bc) --> +a*bc'
+'infix to postfix a+(b*c) --> a+(bc*) --> a(bc*)+ --> abc*+'
 another example
 a*b+c*d-e --> {(a*b)+(c*d)}-e --> {(ab*)+(c*d)}-e --> {(ab*)+(cd*)}-e
 --> {(ab*)(cd*)+}-e --> {(ab*)(cd*)+}e- --> ab*cd*+e-
