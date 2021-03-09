@@ -52,4 +52,21 @@ conversion example--
 --> -,+,*,2,3,*4,5,9
 evaluation:
 so here similarly as postfix we will find first occuring 
-<operator><operand><operand> sequence from right left iteration
+<operator><operand><operand> sequence from right left iteration\
+  what ever the conversions we do , the order of operands will not be changed
+so the algorithm to write a program to convert infix to postfix 
+would be:
+    while traversing the experssion given :
+        if we get a operand:
+            we append it to the postfix string
+        else if we get a operator:
+            if (stack empty) or we have a higher precedent operator at the top of stack:
+                we push the operator into the stack
+            else if we got a operator lower precedent then top elem in stack
+                while stack not empty and our operator is lower precedent then top of stack elem
+                    append the operator to the postfix and pop the elem in stack 
+            then after push this operator into the stack
+if(stack is not empty after all this):
+    while stack is not empty:
+        then append the top elem and pop 
+finally output the postfix exp
