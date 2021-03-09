@@ -32,10 +32,10 @@ division(left to right)--> addition and subtraction(left to right)
 3.postfix--> <operand><operand><operator>
 most prefered method beacause its fst and takes less space
 and less ambiguity
-example: conversion 
-infix=a+(b*c)
-'infix to prefix   a+(b*c) --> a+(*bc) --> +a(*bc) --> +a*bc'
-'infix to postfix a+(b*c) --> a+(bc*) --> a(bc*)+ --> abc*+'
+example: conversion \
+infix=a+(b*c)\
+> infix to prefix   a+(b*c) --> a+(*bc) --> +a(*bc) --> +a*bc\
+> infix to postfix a+(b*c) --> a+(bc*) --> a(bc*)+ --> abc*+\
 another example
 a*b+c*d-e --> {(a*b)+(c*d)}-e --> {(ab*)+(c*d)}-e --> {(ab*)+(cd*)}-e
 --> {(ab*)(cd*)+}-e --> {(ab*)(cd*)+}e- --> ab*cd*+e-
