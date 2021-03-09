@@ -21,12 +21,9 @@ So, its straight forward to us we should do at the beginning\
 [code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/stack_linkedlist.cpp)
 
 ---
-#### reverse string using:
-[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/reverse_string.cpp)
-#### reverse linked list:
-[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/reverse_LL.cpp)
-#### balanced parentheses:
-[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/balanced_parentheses.cpp)
+#### reverse string using: [code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/reverse_string.cpp)
+#### reverse linked list: [code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/reverse_LL.cpp)
+#### balanced parentheses: [code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/balanced_parentheses.cpp)
 #### infix,prefix and postfix:
 writing expressions are of different ways
 1.infix:
@@ -89,5 +86,5 @@ so here similarly as postfix we will find first occuring
           while stack is not empty:
               then append the top elem and pop 
       finally output the postfix exp
-[code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/infixToPostfix.cpp)
+  [code](https://github.com/takasidk/cpp/blob/master/data_structures/Stack/infixToPostfix.cpp)
 
