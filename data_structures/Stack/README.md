@@ -37,6 +37,7 @@ and less ambiguity
 > infix=a+(b*c)\
 > infix to prefix   a+(b*c) --> a+(*bc) --> +a(*bc) --> +a*bc\
 > infix to postfix a+(b*c) --> a+(bc*) --> a(bc*)+ --> abc*+\
+> 
 another example
 a*b+c*d-e --> {(a*b)+(c*d)}-e --> {(ab*)+(c*d)}-e --> {(ab*)+(cd*)}-e
 --> {(ab*)(cd*)+}-e --> {(ab*)(cd*)+}e- --> ab*cd*+e-
