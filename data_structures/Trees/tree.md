@@ -1,13 +1,12 @@
-/*
-Linear Data Structures:
-array,linkedlist,stack,queue
-How should i decide which data structures to use?
-- what needs to be stored
-- cost of operations
--  memory usage and smetimes ease of implementation
-NOn-linear data structure:
-tree:
-terminologies-
+- Linear Data Structures:
+array,linkedlist,stack,queue\
+- How should i decide which data structures to use?\
+what needs to be stored\
+cost of operations\
+memory usage and sometimes ease of implementation\
+* NOn-linear data structure:
+## Trees:
+* terminologies-
 root
 children
 parent
