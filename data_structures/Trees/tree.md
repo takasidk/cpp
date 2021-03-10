@@ -42,10 +42,11 @@ max No of Nodes at level i:2power(i)
 - <ins>perfect binary tree</ins>:in which all levels are completely filled\
 max no of Nodes in tree of height h=2power(h+1)-1=2power(No of levels )-1\
 - <ins>Balanced Binary Tree</ins>: absolute difference between height of left and right sub tree for every Node is not more than 1(mostly 1)
-- <ins>Appllication</ins>:\
-1.storing natuarlly heirarchial data Ex: file system in ours computers.
-2. organize data for quick search,insertion and deletion Ex: Binary search trees(bst).
-3. Trie: used for storing dictionary (fast and efficient)used to dynamic spell check.
+- <ins>Appllications</ins>:\
+
+1.storing natuarlly heirarchial data Ex: file system in ours computers.\
+2. organize data for quick search,insertion and deletion Ex: Binary search trees(bst).\
+3. Trie: used for storing dictionary (fast and efficient)used to dynamic spell check.\
 4. network routing algorithms.
 - <ins>we can implement binary tree using</ins>:\
 1.dynamically created Nodes
