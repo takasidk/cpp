@@ -15,6 +15,7 @@ Implemented in c++\
 [linked list](https://github.com/takasidk/cpp/tree/master/data_structures/Linked_list)\
 [Stack](https://github.com/takasidk/cpp/tree/master/data_structures/Stack)
 [Queue](https://github.com/takasidk/cpp/tree/master/data_structures/queue)
+[Trees](https://github.com/takasidk/cpp/tree/master/data_structures/Trees)
 
 ### 4.Some Coding platform solutions
 [leetcode](https://github.com/takasidk/cpp/tree/master/Solutions/leetcodeSolutions)
