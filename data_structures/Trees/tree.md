@@ -1,4 +1,4 @@
-- Linear Data Structures:
+- <u>Linear Data Structures</u> :
 array,linkedlist,stack,queue
 - How should i decide which data structures to use?\
 what needs to be stored\
