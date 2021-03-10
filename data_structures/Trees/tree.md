@@ -1,23 +1,23 @@
 - Linear Data Structures:
-array,linkedlist,stack,queue\
+array,linkedlist,stack,queue
 - How should i decide which data structures to use?\
 what needs to be stored\
 cost of operations\
-memory usage and sometimes ease of implementation\
+memory usage and sometimes ease of implementation
 * NOn-linear data structure:
 ## Trees:
 * terminologies-
-root
-children
-parent
-siblings
-leaf
+1.root
+2.children
+3.parent
+4.siblings
+5.leaf
 (if say we can go from A to B in given tree Then A is ancestor of B and B is descendent of A)
-ancestor
-descendent
-cousin
-grand parent
-uncle
+6.ancestor
+7.descendent
+8.cousin
+9.grand parent
+10.uncle
 Tree--> is recursive data structure where root will be having links to its sub-trees
 --> N nodes,N-1 edges in valid tree
 depth:
