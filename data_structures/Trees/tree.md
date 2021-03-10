@@ -56,15 +56,16 @@ max no of Nodes in tree of height h=2power(h+1)-1=2power(No of levels )-1\
     right-child-index=2i+2
 - <ins>Table of complexities</ins>:
 
-- <ins>Binary search tree</ins>:\
+#### Binary search tree:
 a binary tree in which for each node value of all Nodes in left subtree is lesser or equal and
 right subtree is greater   
 [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/BST.cpp)
 
-- MIN and MAX of BST [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/min_max_BST.cpp)
-- Height of Binary Tree [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/height_binaryTree.cpp)
-- Tree Traversals: Process to visit all the nodes in the tree exactly once\
-
+#### MIN and MAX of BST 
+[Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/min_max_BST.cpp)
+#### Height of Binary Tree 
+[Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/height_binaryTree.cpp)
+#### Tree Traversals: Process to visit all the nodes in the tree exactly once
 1.Breadth first: Level order (also called)
   - algo would be:
 
