@@ -63,18 +63,18 @@ right subtree is greater
 
 - MIN and MAX of BST [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/min_max_BST.cpp)
 - Height of Binary Tree [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/height_binaryTree.cpp)
-- Tree Traversals: Process to visit all the nodes in the tree exactly once
+- Tree Traversals: Process to visit all the nodes in the tree exactly once\
 1.Breadth first: Level order (also called)
-- algo would be:
+  - algo would be:
 
-      taking a queue pushed with root intially and then 
-      while queue is not empty:
-          visit the first unvisited node and push its left and right into the queue
-          and dequeue the visited node
-- complexities:
-time=O(n) because we need to traverse all the nodes\
-space=O(1)->best(in atree which is having all nodes having only one type of child),O(n)->worst/avg \
-[Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/levelorder.cpp)
+        taking a queue pushed with root intially and then 
+        while queue is not empty:
+            visit the first unvisited node and push its left and right into the queue
+            and dequeue the visited node
+  - complexities:
+        time=O(n) because we need to traverse all the nodes\
+        space=O(1)->best(in atree which is having all nodes having only one type of child),O(n)->worst/avg \
+[Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/levelorder.cpp)\
 2.Depth First: 
 
     inorder <left><root><right> (<left><data><right>) LDR
