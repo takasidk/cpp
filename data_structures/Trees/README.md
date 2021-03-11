@@ -29,12 +29,11 @@ height of a tree =height of the root\
 height of a empty tree is =-1\
 height of atree with 1 node =0
 - <ins>Binary Tree</ins>: a tree in which each Node can have at most two children
-
-            struct Node{
-                int data;
-                Node * left;
-                Node * right;
-            }
+   >  struct Node{\
+   >  int data;\
+   >  Node * left;\
+   >  Node * right;\
+   >         }
 - <ins>strict/proper bInary tree</ins>:\binary tree in which each Node has either 2 or 0 children
 - <ins>complete Binary tree</ins>:\binary tree in which all levels are completely filled except
 last level which is should be completely filled or all nodes are as left side as possible\
@@ -51,11 +50,9 @@ max no of Nodes in tree of height h=2power(h+1)-1=2power(No of levels )-1\
 1.dynamically created Nodes\
 2.array:
   - used for complete binary trees:
-  
-        for node at index i
-        left-child-index=(2i+1)
-        right-child-index=(2i+2)
-    
+    > for node at index i\
+    > left-child-index=(2i+1)\
+    > right-child-index=(2i+2)   
 - <ins>Table of complexities</ins>:\
 Will be Updated 
 #### Binary search tree:
@@ -81,10 +78,9 @@ right subtree is greater
         [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/levelorder.cpp)
         
 2.Depth First: 
-
-    inorder <left><root><right> (<left><data><right>) LDR
-    preorder <root><left><right> (<data><left><right>) DLR
-    postorder <left><right><root> (<left><right><data>) LRD
+  > inorder `<left><root><right> (<left><data><right>)` LDR\
+  > preorder `<root><left><right> (<data><left><right>)` DLR\
+  > postorder `<left><right><root> (<left><right><data>)` LRD
   - inorder traversal of BST will give sorted list\
     [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/dfs_BST.cpp)
 
