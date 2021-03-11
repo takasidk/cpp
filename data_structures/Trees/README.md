@@ -52,10 +52,11 @@ max no of Nodes in tree of height h=2power(h+1)-1=2power(No of levels )-1\
 2.arrays ( used for complete binary trees):
 
     for node at index i;
-    left-child-index=2i+1
-    right-child-index=2i+2
-- <ins>Table of complexities</ins>:
-
+    left-child-index=(2i+1)
+    right-child-index=(2i+2)
+    
+- <ins>Table of complexities</ins>:\
+Will be Updated 
 #### Binary search tree:
 a binary tree in which for each node value of all Nodes in left subtree is lesser or equal and
 right subtree is greater   
