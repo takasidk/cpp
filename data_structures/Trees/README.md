@@ -86,7 +86,7 @@ right subtree is greater
   - inorder traversal of BST will give sorted list\
     [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/dfs_BST.cpp)
 
-#### Check if a binary tree is BST:\
+#### Check if a binary tree is BST:
 A binary tree which obeys BST restrictions will be BST
 So, idea would taking an interval (-inf,+inf) and from root while traversing 
 left the upperbound will be changed to prev node data and while going right the lower bound
@@ -95,7 +95,7 @@ present is in between the bounds or not
 - another way would be find the FindMax(leftsubtree) and findMin (rightsubtree)
 then our root should be greater then the max and lesser then min then its BST\
 [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/check_BST.cpp)
-#### Deleting a Node from BST:\
+#### Deleting a Node from BST:
 deleteing a node would be tricky beacuase we may lose the property of BST\
 case 1: if the node is leaf there is no change of property\
 case 2: if the node is having only one child there is no change in property\
@@ -106,3 +106,5 @@ case 3: if the node is having 2 children then there is change in property
     copy the value in target node and delete the dupicate from left subtree
     which will be a leaf node of left subtree (case 1)\
 [Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/Delete_BST.cpp)
+#### inorderSuccessor in a BST:
+[Code](https://github.com/takasidk/cpp/blob/master/data_structures/Trees/inorderSuccessor_BST.cpp)
