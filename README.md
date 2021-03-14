@@ -1,5 +1,5 @@
 # Cpp
-Detailed information of c++ language concepts and implementations of algorithms and data structures using c++
+Detailed information of c++ language concepts and implementations of algorithms and data structures 
 
 ### 1.Cpp language concepts
 [Pointers](https://github.com/takasidk/cpp/tree/master/C%2B%2B%20Language/pointers)\
