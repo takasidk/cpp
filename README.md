@@ -17,7 +17,7 @@ Implemented in c++\
 [Queue](https://github.com/takasidk/cpp/tree/master/data_structures/queue)\
 [Trees](https://github.com/takasidk/cpp/tree/master/data_structures/Trees)
 
-### 4.Some Coding platform solutions
+### 4.Some Coding platform solutions 
 [leetcode](https://github.com/takasidk/cpp/tree/master/Solutions/leetcodeSolutions)
 
 *references* [mycodeschool](http://www.mycodeschool.com/) [freecodecamp](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjH_IrPuKDvAhWazTgGHZu_AZ0QFjAAegQIARAE&url=https%3A%2F%2Fwww.freecodecamp.org%2F&usg=AOvVaw2O9Sbs3zh9NHmRpWZrEZt-)
