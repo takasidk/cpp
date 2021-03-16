@@ -1,6 +1,6 @@
 # Cpp
 Detailed information of c++ language concepts and implementations of algorithms and data structures 
- 
+  
 ### 1.Cpp language concepts
 [Pointers](https://github.com/takasidk/cpp/tree/master/C%2B%2B%20Language/pointers)\
 [Smart Pointers](https://github.com/takasidk/cpp/tree/master/C%2B%2B%20Language/smart_pointers)\
@@ -19,6 +19,6 @@ Implemented in c++\
 
 ### 4.Some Coding platform solutions 
 [leetcode](https://github.com/takasidk/cpp/tree/master/Solutions/leetcodeSolutions)
- 
+  
 *references* [mycodeschool](http://www.mycodeschool.com/) [freecodecamp](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjH_IrPuKDvAhWazTgGHZu_AZ0QFjAAegQIARAE&url=https%3A%2F%2Fwww.freecodecamp.org%2F&usg=AOvVaw2O9Sbs3zh9NHmRpWZrEZt-)
 
