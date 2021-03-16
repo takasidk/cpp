@@ -9,7 +9,7 @@ Detailed information of c++ language concepts and implementations of algorithms 
 ### 2.Algorithms   
 Implemented in c++\  
 [binary tree traversals](https://github.com/takasidk/cpp/tree/master/cpp_algorithms/BinaryTrees)
-
+   
 ### 3.Data Structures
 Implemented in c++\
 [linked list](https://github.com/takasidk/cpp/tree/master/data_structures/Linked_list)\
