@@ -7,7 +7,7 @@ Detailed information of c++ language concepts and implementations of algorithms 
 [Type Casting](https://github.com/takasidk/cpp/tree/master/C%2B%2B%20Language/type_casting)
  
 ### 2.Algorithms 
-Implemented in c++\
+Implemented in c++\  
 [binary tree traversals](https://github.com/takasidk/cpp/tree/master/cpp_algorithms/BinaryTrees)
 
 ### 3.Data Structures
