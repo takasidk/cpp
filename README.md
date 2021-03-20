@@ -11,7 +11,7 @@ Implemented in c++\
 [binary tree traversals](https://github.com/takasidk/cpp/tree/master/cpp_algorithms/BinaryTrees)
     
 ### 3.Data Structures
-Implemented in c++\
+Implemented in c++\ 
 [linked list](https://github.com/takasidk/cpp/tree/master/data_structures/Linked_list)\
 [Stack](https://github.com/takasidk/cpp/tree/master/data_structures/Stack)\
 [Queue](https://github.com/takasidk/cpp/tree/master/data_structures/queue)\
