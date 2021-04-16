@@ -14,4 +14,4 @@
     3.dynamic_cast
     3.const_cast
     4.reinterpret_cast
-refer-->[here](https://en.cppreference.com/w/cpp/language/expressions) for these casts for deailed info
+refer-->[here](https://en.cppreference.com/w/cpp/language/expressions) for these casts for detailed info
