@@ -33,7 +33,7 @@ expersions are evaluated by BODMAS-operator precedence rules.
 - Order:Parentheses&#8594;Exponents(right to left)&#8594; Multliplication and 
 Division(left to right)&#8594; Addition and Subtraction(left to right)\
 2.Prefix &#8594; `<operator><operand><operand>`\
-3.Postfix &#8594; `<operand><operand><operator>`\
+3.Postfix &#8594; `<operand><operand><operator>`
 - Most prefered method beacause its fast and takes less space
 and less ambiguity
 - Example: conversion 
