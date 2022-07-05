@@ -73,13 +73,24 @@ void printitr()
         }
     }
 }
-void printrecur(Node *p)
+
+void printRecur(Node *p)
 {
     if (p == NULL)
     {
         return;
     }
+    cout << p->data << " ";
     printrecur(p->next);
+}
+
+void printRevRecur(Node *p)
+{
+    if (p == NULL)
+    {
+        return;
+    }
+    printRevRecur(p->next);
     cout << p->data << " ";
 }
 int main()
